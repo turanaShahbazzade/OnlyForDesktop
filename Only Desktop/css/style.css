@@ -1,0 +1,316 @@
+body {
+  background-color: brown;
+}
+
+.text-social {
+  padding: 20px;
+  margin-left: 55px;
+}
+
+.text-social span {
+  color: white;
+  font-size: 30px;
+}
+
+.text-social span span {
+  color: lightcoral;
+}
+
+.icon-holder {
+  padding-right: 226px;
+}
+
+.icon-holder input {
+  background-color: white;
+  border: none;
+  height: 30px;
+  width: 300px;
+  display: inline-block;
+}
+
+.icon-holder p {
+  position: absolute;
+  left: 17px;
+  top: 4px;
+  color: brown;
+}
+
+.fa-search {
+  position: absolute;
+  right: 157px;
+  bottom: 6px;
+  color: brown !important;
+}
+
+.input-upload {
+  margin-left: -365px;
+}
+
+.input-upload input {
+  border: none;
+  height: 30px;
+  width: 90px;
+  border-radius: 0 !important;
+  text-align: center !important;
+  display: inline-block;
+  color: brown !important;
+  background-color: white;
+}
+
+.fa-arrow-up {
+  position: absolute;
+  left: 224px;
+  top: 8px;
+  color: brown;
+}
+
+.icon-person {
+  margin-left: -535px;
+}
+
+.icon-person .fa-user-alt {
+  background-color: white;
+  height: 32px;
+  width: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.icon-person h4 {
+  font-size: 16px;
+  position: absolute;
+  right: 254px;
+  bottom: -9px;
+  color: white;
+}
+
+.icon-person p {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: brown;
+  background-color: white;
+  border-radius: 50%;
+  right: 237px;
+  top: -14px;
+}
+
+#headerBreadcrump hr {
+  border-top: 3px solid white;
+}
+
+.nav-breadcrumb ol {
+  border-radius: 0 !important;
+  background-color: white;
+}
+
+.nav-breadcrumb ol li a {
+  text-decoration: none;
+  color: brown !important;
+}
+
+.heading {
+  width: 413.33px;
+}
+
+.improve {
+  background-color: white;
+  height: 300px;
+  border: 4px solid brown;
+  border-radius: 2%;
+}
+
+.improve h4,
+.improve p {
+  color: brown;
+  padding-left: 10px;
+  display: inline-block;
+  font-size: small;
+}
+
+.improve .text-view p {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+
+.user-item {
+  height: 150px;
+  background-color: white;
+  border: 4px solid brown;
+  border-radius: 2%;
+}
+
+.user-item p {
+  color: brown;
+  padding-left: 10px;
+  font-size: small;
+}
+
+.user-item .text-view p {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+
+.upload-video {
+  height: 142px;
+  border: 2px solid white;
+  border-radius: 2%;
+  margin-top: 4px;
+}
+
+.upload-video h6 {
+  padding-top: 50px;
+  color: white;
+}
+
+.upload-video .upload-icon {
+  position: absolute;
+  left: 7px;
+  top: 52px;
+  color: white;
+  font-size: 23px;
+}
+
+#videos hr {
+  border-top: 3px solid white;
+  margin-top: 4px;
+}
+
+.empty-box {
+  height: 70px;
+  background-color: white;
+}
+
+.text-activity .second {
+  padding-left: 20px;
+}
+
+.text-activity .comment-icon {
+  position: absolute;
+  left: 0px;
+  top: 42px;
+  color: white;
+  font-size: 18px;
+}
+
+.activity-row {
+  width: 445px;
+  height: 90px;
+  position: absolute;
+  border: 3px solid white;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 0;
+  visibility: hidden;
+}
+
+.corner {
+  visibility: hidden;
+}
+
+.corner i {
+  color: white;
+  font-size: 63px;
+  position: absolute;
+  right: 28px;
+  top: -30px;
+  transform: rotate(313deg);
+}
+
+.over-corner {
+  visibility: hidden;
+}
+
+.over-corner i {
+  font-size: 13px;
+  position: absolute;
+  right: 33px;
+  top: -3px;
+  color: brown;
+}
+
+.show-everything:hover .activity-row {
+  visibility: visible;
+}
+
+.show-everything:hover .corner {
+  visibility: visible;
+}
+
+.show-everything:hover .over-corner {
+  visibility: visible;
+}
+
+#people hr {
+  border-top: 3px solid white;
+  margin-top: 3px;
+}
+
+.icon-people {
+  visibility: hidden;
+}
+
+.icon-people i {
+  position: absolute;
+  right: -6px;
+  top: -33px;
+  transform: rotate(313deg);
+  color: #741717;
+}
+
+.icon-plus {
+  visibility: hidden;
+}
+
+.icon-plus i {
+  position: absolute;
+  right: 2px;
+  top: 3px;
+}
+
+.people-box {
+  height: 100px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.people-box:hover .icon-people {
+  visibility: visible;
+}
+
+.people-box:hover .icon-plus {
+  visibility: visible;
+}
+
+#documents hr {
+  border-top: 3px solid white;
+  margin-top: 45px;
+}
+
+.box-doc {
+  height: 100px;
+  background-color: white;
+  margin-top: 45px;
+}
+
+.box-doc:hover .icon-people {
+  visibility: visible;
+}
+
+.box-doc:hover .icon-plus {
+  visibility: visible;
+}
+
+.footer-breadcrumb .breadcrumb {
+  border-radius: 0;
+  border: none;
+  background-color: brown;
+}
+
+.footer-breadcrumb .breadcrumb li a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
